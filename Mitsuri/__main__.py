@@ -30,6 +30,7 @@ from Mitsuri import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config1 file!
+from Mitsuri.modules.sudoers import bot_sys_stats as bss
 from Mitsuri.events import register
 from Mitsuri.modules import ALL_MODULES
 from Mitsuri.modules.helper_funcs.chat_status import is_user_admin
@@ -55,7 +56,7 @@ from telegram.ext import (
 
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
-from pyrogram import Client, idle
+from pyrogram import Client, idle, filters
 from telethon import Button
 
     
