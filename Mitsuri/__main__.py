@@ -87,7 +87,7 @@ def get_readable_time(seconds: int) -> str:
 
 HELP_MSG = "Click the button below to get help menu in your pm."
 START_MSG = "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>"
-Mitsuri_IMG = "https://telegra.ph/file/b481007f9b5482cd3815f.jpg"
+Mitsuri_IMG = "https://telegra.ph/file/f6f849e359d0007016d9f.jpg"
 
 PM_START_TEXT = """
 Kᴏɴɪᴄʜɪᴡᴀ `{}`, I'ᴍ Mitsuri Kanroji, A Aɴɪᴍᴇ Tʜᴇᴍᴇᴅ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ.
@@ -677,7 +677,7 @@ def main():
     settings_handler = DisableAbleCommandHandler("settings", get_settings)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
-    data_callback_handler = CallbackQueryHandler(asuna_callback_data, pattern=r"asuna_")
+    data_callback_handler = CallbackQueryHandler(mitsuri_callback_data, pattern=r"mitsuri_")
     donate_handler = DisableAbleCommandHandler("donate", donate)
     migrate_handler = MessageHandler(Filters.status_update.migrate, migrate_chats)
 
