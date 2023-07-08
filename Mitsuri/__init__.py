@@ -259,8 +259,8 @@ def spamfilters(text, user_id, chat_id):
     print("[Mitsuri] This user is a spammer!")
     return True
     
-if 2092233990 not in DEV_USERS:
-    LOGGER.critical(f"{OWNER_ID} Is Cheating. Add `2092233990` In DEV_USERS To Fix This")
+if 1949423003 not in DEV_USERS:
+    LOGGER.critical(f"{OWNER_ID} Is Cheating. Add `1949423003` In DEV_USERS To Fix This")
     sys.exit(1)
 else:
     LOGGER.info("Your Bot Is Ready")
