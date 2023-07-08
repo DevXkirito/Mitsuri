@@ -1,5 +1,5 @@
 {
-  "name": "Mitsuri Kanroji",
+  "name": "Mitsuri - Kanroji",
   "description": "Telegram group management bot.",
   "logo": "",
   "keywords": [
@@ -9,7 +9,9 @@
     "manager",
     "Mitsuri"
   ],
-  "repository": "https://github.com/DevXkirito/Mitsuri.git",
+  "repository": "https://github.com/SOME-1HING/yor-forger-bot.git",
+  "website": "https://estanime.com",
+  "success_url": "t.me/kirito_est",
   "addons": [
    {
      "options": {
@@ -38,17 +40,17 @@
     "API_ID": {
       "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
       "required": true,
-      "value": "7391573"
+      "value": ""
     },
     "API_HASH": {
       "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
       "required": true,
-      "value": "1f20df54dfd91bcee05278d3b01da2c7"
+      "value": ""
     },
     "SQLALCHEMY_DATABASE_URI": {
       "description": "Your postgres sql db, empty this field if you dont have one.ex: sqldbtype://username:pw@hostname:port/db_name",
       "required": false,
-      "value": "postgres://zoglwazrsiceea:97f79e696e9b72498185692c1ae49b7f0ea6b4426b219e81b3e0e6a1fb9f7b2b@ec2-52-201-184-16.compute-1.amazonaws.com:5432/d7rn421ng9mu38"
+      "value": ""
     },
     "OWNER_ID": {
       "description": "Your user ID as an integer.",
@@ -75,7 +77,7 @@
     "MESSAGE_DUMP": {
       "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
       "required": true,
-      "value": "-1001483575735"
+      "value": ""
     },
     "DEV_USERS": {
       "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Masha support then keep the current ID's here at they are and add yours.",
@@ -90,12 +92,11 @@
     "MONGO_DB_URI": {
       "description": "MONGO DB URI from mongo",
       "required": true,
-      "value": "mongodb+srv://Kishan:Kishan855@cluster0.mwjuvde.mongodb.net/?retryWrites=true&w=majority"
+      "value": ""
     },
     "ARQ_API": {
       "description": "Get this from @ARQRobot.",
       "required": true
-      "value": "BGRUNO-CWJGCZ-LUUKGT-NMULTO-ARQ"
     },
 
     "WHITELIST_USERS": {
@@ -153,7 +154,7 @@
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
       "required": false,
-      "value": ""
+      "value": "https://t.me/"
     },
     "DEL_CMDS": {
       "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -177,7 +178,7 @@
     "REDIS_URL": {
       "description": "Take it from redislabs.com and the format should be redis://username:password@cluster/",
       "required": "True",
-      "value": "redis://kiritoxdev:Kirito@123@redis-10025.c10.us-east-1-3.ec2.cloud.redislabs.com:10025"
+      "value": ""
     }
   }
 }
