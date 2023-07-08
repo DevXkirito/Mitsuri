@@ -375,7 +375,7 @@ def help_button(update, context):
     except BadRequest:
         pass
 
-def Mitsuri_callback_data(update, context):
+def mitsuri_callback_data(update, context):
     query = update.callback_query
     uptime = get_readable_time((time.time() - StartTime))
     if query.data == "Mitsuri_":
