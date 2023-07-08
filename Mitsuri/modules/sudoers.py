@@ -6,7 +6,7 @@ import time
 import psutil
 from pyrogram import filters
 
-from Mitsuri import (StartTime, DEV_USERS, pgram)
+from Mitsuri import (StartTime, DEV_USERS, pbot)
 import Mitsuri.utils.formatter as formatter
 import Mitsuri.modules.sql.users_sql as sql
 
