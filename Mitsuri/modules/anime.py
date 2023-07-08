@@ -12,9 +12,9 @@ from telegram.utils.helpers import mention_html
 from pyrogram import filters
 from bs4 import BeautifulSoup
 
-from YorForger.modules.helper_funcs.alternate import typing_action
-from YorForger.modules.disable import DisableAbleCommandHandler
-from YorForger import OWNER_ID, REDIS, dispatcher, pbot
+from Mitsuri.modules.helper_funcs.alternate import typing_action
+from Mitsuri.modules.disable import DisableAbleCommandHandler
+from Mitsuri import OWNER_ID, REDIS, dispatcher, pbot
 
 
 kaizoku_btn = "Kaizoku ☠️"
