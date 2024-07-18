@@ -51,7 +51,6 @@ dateparser
 dnspython
 hachoir
 numpy
-nekos.py
 bing_image_downloader
 emoji-country-flag
 countryinfo
